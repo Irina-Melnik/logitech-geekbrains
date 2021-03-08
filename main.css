@@ -54,6 +54,8 @@ header {
     color: white;
     font-size: 12px;
     margin-right: 36px;
+    font-weight: 500;
+    line-height: 22px;
 }
 
 .menu-main ul li a {
@@ -63,7 +65,7 @@ header {
 
 .menu-main ul li:first-child a {
     color: inherit;
-    padding-bottom: 7px;
+    padding-bottom: 4px;
     border-bottom: 1px solid white;
 }
 
@@ -645,23 +647,6 @@ header {
     }
 }
 
-/* @media (max-width: 991px) {
-  ul.navbar-nav {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2F3132;
-    top: 73px;
-    left: 0;
-  }
-
-  ul.navbar-nav li.nav-item a.nav-link {
-    color: #C4C4C4;
-  }
-  
-  
-} */
-
 @media (min-width: 1024px) {
 
     #settings-slider {
@@ -768,6 +753,7 @@ header {
 
     .top__img {
         /* margin-top: 20px; */
+        background-image: url(./img/MX-Master-XL.png);
         height: 671px;
         padding-top: 40px;
         margin-bottom: 8px;
@@ -944,7 +930,4 @@ header {
         display: block;
     }
     
-
-
-
 }
